@@ -64,7 +64,15 @@ winget install --id=astral-sh.uv  -e
 ### User B - Collaborator
 1. At this time, you must have installed python locally
 2. Clone the repository, to create the repo locally
-3. Sync the VE
+3. Sync the VE: 
+```
+uv sync
+# for a jupyter notebook project
+uv add --dev ipykernel
+uv run ipython kernel install --user --name=jupinote --display-name "Jupi Project"
+uv run jupyter lab
+
+```
 4. Before you start working, update the repository from the remote
 5. Create a feature branch and start working
 6. Add your finished work to the staging area and commit
