@@ -9,9 +9,9 @@ wheels/
 # Virtual environments
 .venv
 .python-version
-pyproject.toml
+#pyproject.toml
 main.py
-uv.lock
+#uv.lock
 
 # notebook
 .ipynb_checkpoints
